@@ -6,7 +6,6 @@
 body{
     margin: 0;
     background-color: rgb(143, 210, 255);
-    overflow: hidden;
     color: white;
 }
 
@@ -36,41 +35,6 @@ body{
 }
 
 /* END loader style */
-
-.scroll-bar{
-    display: grid;
-    grid-template-rows: 16px 1fr 1fr 1fr 1fr 1fr 16px;
-
-    background-color: rgb(224, 239, 255);
-    grid-column-start: 13;
-    grid-column-end: 14;
-    grid-row-start: 1;
-    grid-row-end: 13;
-
-    transition: 1s;
-}
-
-.scroller{
-    background-color: rgb(148, 148, 148);
-}
-
-.scroller:hover{
-    background-color: grey;
-}
-
-.down{
-    grid-row-start: 7;
-    grid-row-end: 8;
-
-    color: black;
-}
-
-.up{
-    grid-row-start: 1;
-    grid-row-end: 2;
-
-    color: black;
-}
 
 .text-border-black{
     text-shadow: 0px 1px 4px salmon,
@@ -116,6 +80,12 @@ body{
     border: 1px solid black;
 } */
 
+.disclaimer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30pt;
+}
 .greeting{
     display: flex;
     justify-content: center;
